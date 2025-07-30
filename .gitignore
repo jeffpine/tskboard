@@ -31,11 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-application.properties
-liquibase.properties
-ConnectionConfig.java
-db.changelog
-db.changelog-master.yml
-db.changelog-schemas.yml
-db.changelog-test.yml
-db.changelog-202507292248.sql
