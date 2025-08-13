@@ -12,7 +12,7 @@ public class BoardDAO {
 
     private final Connection connection;
 
-    private BoardEntity insert(final BoardEntity entity) throws SQLException {
+    public BoardEntity insert(final BoardEntity entity) throws SQLException {
 
         var sql = "INSERT INTO BOARDS (name) VALUES (?);";
         try (var statement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
