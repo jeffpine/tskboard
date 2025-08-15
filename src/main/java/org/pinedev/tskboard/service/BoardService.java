@@ -18,7 +18,7 @@ public class BoardService {
         var boardColumnDao = new BoardColumnDAO(connection);
         try{
             dao.insert(entity);
-            var columns = entity.getBoardsColumns().stream().map(c -> {
+            var columns = entity.getBoardColumns().stream().map(c -> {
                 c.setBoard(entity);
                 return c;
             }).toList();
@@ -36,7 +36,7 @@ public class BoardService {
     public boolean delete(final Long id) throws SQLException {
         var dao = new BoardDAO(connection);
         try {
-           if (!dao.exixts(id)) {
+           if (!dao.exists(id)) {
                return false;
            }
                dao.delete(id);

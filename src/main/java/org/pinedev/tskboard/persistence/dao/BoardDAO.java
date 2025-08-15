@@ -53,7 +53,7 @@ public class BoardDAO {
         }
     }
 
-    public boolean exixts(final Long id) throws SQLException {
+    public boolean exists(final Long id) throws SQLException {
         var sql = "SELECT 1 FROM BOARDS WHERE id = ?";
         try(var statement = connection.prepareStatement(sql)){
             statement.setLong(1, id);
