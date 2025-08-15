@@ -1,13 +1,18 @@
-[2m2025-08-11T22:07:31.804-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.changelog                     [0;39m [2m:[0;39m Reading resource: db/changelog/migrations/db.changelog-202507292248.sql
-[2m2025-08-11T22:07:32.062-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.changelog                     [0;39m [2m:[0;39m Reading from tskboard.databasechangelog
-[2m2025-08-11T22:07:32.064-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.changelog                     [0;39m [2m:[0;39m Reading resource: db/changelog/migrations/db.changelog-202507302227.sql
-[2m2025-08-11T22:07:32.068-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.changelog                     [0;39m [2m:[0;39m Reading resource: db/changelog/migrations/db.changelog-202507302239.sql
-[2m2025-08-11T22:07:32.071-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.changelog                     [0;39m [2m:[0;39m Reading resource: db/changelog/migrations/db.changelog-202507302248.sql
-[2m2025-08-11T22:07:32.165-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.lockservice                   [0;39m [2m:[0;39m Successfully acquired change log lock
-[2m2025-08-11T22:07:32.166-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.command                       [0;39m [2m:[0;39m Using deploymentId: 4960851446
-[2m2025-08-11T22:07:32.169-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.changelog                     [0;39m [2m:[0;39m Reading from tskboard.databasechangelog
+[2m2025-08-15T17:35:45.158-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.changelog                     [0;39m [2m:[0;39m Reading resource: db/changelog/migrations/db.changelog-202507292248.sql
+[2m2025-08-15T17:35:45.261-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.changelog                     [0;39m [2m:[0;39m Creating database history table with name: tskboard.databasechangelog
+[2m2025-08-15T17:35:45.412-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.changelog                     [0;39m [2m:[0;39m Reading from tskboard.databasechangelog
+[2m2025-08-15T17:35:45.416-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.changelog                     [0;39m [2m:[0;39m Reading resource: db/changelog/migrations/db.changelog-202507302227.sql
+[2m2025-08-15T17:35:45.421-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.changelog                     [0;39m [2m:[0;39m Reading resource: db/changelog/migrations/db.changelog-202507302239.sql
+[2m2025-08-15T17:35:45.424-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.changelog                     [0;39m [2m:[0;39m Reading resource: db/changelog/migrations/db.changelog-202507302248.sql
+[2m2025-08-15T17:35:45.469-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.snapshot                      [0;39m [2m:[0;39m Creating snapshot
+[2m2025-08-15T17:35:45.567-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.lockservice                   [0;39m [2m:[0;39m Successfully acquired change log lock
+[2m2025-08-15T17:35:45.567-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.command                       [0;39m [2m:[0;39m Using deploymentId: 5290144809
+[2m2025-08-15T17:35:45.569-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.changelog                     [0;39m [2m:[0;39m Reading from tskboard.databasechangelog
+Running Changeset: db/changelog/migrations/db.changelog-202507292248.sql::202507292248::jeff
+[2m2025-08-15T17:35:45.636-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.changelog                     [0;39m [2m:[0;39m Custom SQL executed
+[2m2025-08-15T17:35:45.638-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.changelog                     [0;39m [2m:[0;39m ChangeSet db/changelog/migrations/db.changelog-202507292248.sql::202507292248::jeff ran successfully in 29ms
 Running Changeset: db/changelog/migrations/db.changelog-202507302227.sql::202507292248::jeff
-[2m2025-08-11T22:07:32.719-03:00[0;39m [31mERROR[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.changelog                     [0;39m [2m:[0;39m ChangeSet db/changelog/migrations/db.changelog-202507302227.sql::202507292248::jeff encountered an exception.
+[2m2025-08-15T17:35:45.655-03:00[0;39m [31mERROR[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.changelog                     [0;39m [2m:[0;39m ChangeSet db/changelog/migrations/db.changelog-202507302227.sql::202507292248::jeff encountered an exception.
 
 liquibase.exception.DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''order')
 ) ENGINE=InnoDB' at line 8 [Failed SQL: (1064) CREATE TABLE BOARDS_COLUMNS (
@@ -65,37 +70,37 @@ liquibase.exception.DatabaseException: You have an error in your SQL syntax; che
 	at org.pinedev.tskboard.TskboardApplication.main(TskboardApplication.java:18) ~[classes/:na]
 Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''order')
 ) ENGINE=InnoDB' at line 8
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112) ~[mysql-connector-j-9.3.0.jar:9.3.0]
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.3.0.jar:9.3.0]
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:837) ~[mysql-connector-j-9.3.0.jar:9.3.0]
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:685) ~[mysql-connector-j-9.3.0.jar:9.3.0]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648) ~[mysql-connector-j-8.0.33.jar:8.0.33]
 	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:491) ~[liquibase-core-4.31.1.jar:na]
 	... 43 common frames omitted
 
 
 UPDATE SUMMARY
-Run:                          0
-Previously run:               1
+Run:                          1
+Previously run:               0
 Filtered out:                 0
 -------------------------------
 Total change sets:            4
 
-[2m2025-08-11T22:07:32.731-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.util                          [0;39m [2m:[0;39m UPDATE SUMMARY
-[2m2025-08-11T22:07:32.731-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.util                          [0;39m [2m:[0;39m Run:                          0
-[2m2025-08-11T22:07:32.731-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.util                          [0;39m [2m:[0;39m Previously run:               1
-[2m2025-08-11T22:07:32.731-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.util                          [0;39m [2m:[0;39m Filtered out:                 0
-[2m2025-08-11T22:07:32.731-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.util                          [0;39m [2m:[0;39m -------------------------------
-[2m2025-08-11T22:07:32.731-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.util                          [0;39m [2m:[0;39m Total change sets:            4
-[2m2025-08-11T22:07:32.732-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.util                          [0;39m [2m:[0;39m Update summary generated
-[2m2025-08-11T22:07:32.734-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.command                       [0;39m [2m:[0;39m Update command encountered an exception.
-[2m2025-08-11T22:07:32.741-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.lockservice                   [0;39m [2m:[0;39m Successfully released change log lock
-[2m2025-08-11T22:07:32.743-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.command                       [0;39m [2m:[0;39m Logging exception.
+[2m2025-08-15T17:35:45.666-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.util                          [0;39m [2m:[0;39m UPDATE SUMMARY
+[2m2025-08-15T17:35:45.667-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.util                          [0;39m [2m:[0;39m Run:                          1
+[2m2025-08-15T17:35:45.667-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.util                          [0;39m [2m:[0;39m Previously run:               0
+[2m2025-08-15T17:35:45.667-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.util                          [0;39m [2m:[0;39m Filtered out:                 0
+[2m2025-08-15T17:35:45.667-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.util                          [0;39m [2m:[0;39m -------------------------------
+[2m2025-08-15T17:35:45.667-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.util                          [0;39m [2m:[0;39m Total change sets:            4
+[2m2025-08-15T17:35:45.668-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.util                          [0;39m [2m:[0;39m Update summary generated
+[2m2025-08-15T17:35:45.671-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.command                       [0;39m [2m:[0;39m Update command encountered an exception.
+[2m2025-08-15T17:35:45.676-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.lockservice                   [0;39m [2m:[0;39m Successfully released change log lock
+[2m2025-08-15T17:35:45.678-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.command                       [0;39m [2m:[0;39m Logging exception.
 ERROR: Exception Details
 ERROR: Exception Primary Class:  SQLSyntaxErrorException
 ERROR: Exception Primary Reason:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''order')
 ) ENGINE=InnoDB' at line 8
 ERROR: Exception Primary Source:  MySQL 8.0.41
-[2m2025-08-11T22:07:32.744-03:00[0;39m [32m INFO[0;39m [35m9008[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.command                       [0;39m [2m:[0;39m Command execution complete
+[2m2025-08-15T17:35:45.679-03:00[0;39m [32m INFO[0;39m [35m11588[0;39m [2m--- [tskboard] [           main] [0;39m[36mliquibase.command                       [0;39m [2m:[0;39m Command execution complete
 liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/migrations/db.changelog-202507302227.sql::202507292248::jeff:
      Reason: liquibase.exception.DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''order')
 ) ENGINE=InnoDB' at line 8 [Failed SQL: (1064) CREATE TABLE BOARDS_COLUMNS (
@@ -191,9 +196,9 @@ Caused by: liquibase.exception.DatabaseException: You have an error in your SQL 
 	... 38 more
 Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''order')
 ) ENGINE=InnoDB' at line 8
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:837)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:685)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
 	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:491)
 	... 43 more

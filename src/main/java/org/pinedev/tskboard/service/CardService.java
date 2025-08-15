@@ -2,6 +2,10 @@ package org.pinedev.tskboard.service;
 
 
 import lombok.AllArgsConstructor;
+import org.pinedev.tskboard.dto.BoardColumnInfoDTO;
+import org.pinedev.tskboard.exception.CardBlockedException;
+import org.pinedev.tskboard.exception.CardFinishedException;
+import org.pinedev.tskboard.exception.EntityNotFoundException;
 import org.pinedev.tskboard.persistence.dao.BlockDAO;
 import org.pinedev.tskboard.persistence.dao.CardDAO;
 import org.pinedev.tskboard.persistence.entity.CardEntity;

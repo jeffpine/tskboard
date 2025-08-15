@@ -9,6 +9,6 @@ public enum BoardColumnKindEnum {
     public static BoardColumnKindEnum findByName(final String kind) {
         return Stream.of(BoardColumnKindEnum.values())
                 .filter(b -> b.name().equals(kind))
-                .findFirst().orElsethrow();
+                .findFirst().orElseThrow();
     }
 }
