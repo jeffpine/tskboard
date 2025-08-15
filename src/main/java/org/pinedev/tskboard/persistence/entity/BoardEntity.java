@@ -10,6 +10,6 @@ public class BoardEntity {
 
     private Long id;
     private String name;
-    private List<BoardColumnEntity> boardsColumns = new ArrayList<>();
+    private List<BoardColumnEntity> boardColumns = new ArrayList<>();
 
 }

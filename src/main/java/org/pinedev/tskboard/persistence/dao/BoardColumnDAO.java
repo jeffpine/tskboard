@@ -6,6 +6,7 @@ import org.pinedev.tskboard.persistence.entity.BoardColumnEntity;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.List;
 
 @RequiredArgsConstructor
 public class BoardColumnDAO {
@@ -29,4 +30,7 @@ public class BoardColumnDAO {
 
 }
 
+    public List<BoardColumnEntity> findByBoardId(Long id) throws SQLException {
+        return null;
+    }
 }
